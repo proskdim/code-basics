@@ -2,3 +2,4 @@ title:
   ru: "Python"
 description:
   ru: "Интерактивный курс для начинающих"
+docker_image: "python:3.11-slim"
