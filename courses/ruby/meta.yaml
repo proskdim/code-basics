@@ -1,3 +1,3 @@
 title:
   ru: "Ruby"
-docker_image: "codebasics_ruby:latest"
+docker_image: "basics_ruby:latest"
