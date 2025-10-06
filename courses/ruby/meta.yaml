@@ -1,0 +1,3 @@
+title:
+  ru: "Ruby"
+docker_image: "codebasics_ruby:latest"
