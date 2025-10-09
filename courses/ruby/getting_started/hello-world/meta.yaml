@@ -1,4 +1,3 @@
-title:
-  ru: "Привет, мир!"
-order: 1
+title: "Привет, мир!"
 slug: "ruby-hello-world"
+order: 1

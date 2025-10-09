@@ -1,4 +1,3 @@
-title:
-  ru: "Привет, мир!"
-order: 1
+title: "Привет, мир!"
 slug: "python-hello-world"
+order: 1

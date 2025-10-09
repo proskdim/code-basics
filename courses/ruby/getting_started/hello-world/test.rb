@@ -1,7 +1,7 @@
 result = hello()
 expected = 'Hello, World!'
 if result != expected
-  puts "Expected: #{expected}, got: #{result}"
+  puts "Получено: #{expected}, ожидалось: #{result}"
   exit 1
 end
 puts 'OK'

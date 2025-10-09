@@ -7,7 +7,7 @@ except Exception as e:
 
 expected = "Hello, World!"
 if result != expected:
-    print(f"Expected: '{expected}', but got: '{result}'")
+    print(f"Ожидалось: '{expected}', получено: '{result}'")
     exit(1)
 
 print("OK")
