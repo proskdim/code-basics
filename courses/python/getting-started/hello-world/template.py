@@ -1,3 +1,7 @@
 def hello():
-    # Your code here
+    """Возвращает строку 'Hello, World!'."""
+    pass
+
+def hi():
+    """Возвращает строку 'Hi'."""
     pass
