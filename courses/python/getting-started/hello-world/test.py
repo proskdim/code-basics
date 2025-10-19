@@ -6,6 +6,9 @@ class TestHelloWorld(unittest.TestCase):
     def test_hello_world(self):
         try:
             from solution import hello
+        except SyntaxError as e:
+            print(f"Синтаксическая ошибка: {e.msg}: строка - {e.lineno}")
+            sys.exit(1)
         except ImportError:
             print("Функция 'hello' не определена")
             sys.exit(1)
@@ -38,7 +41,7 @@ class TestHelloWorld(unittest.TestCase):
         if result != expected:
             print(f"Функция 'hi' вернула '{result}', ожидается '{expected}'")
             sys.exit(1)
-                
+
 
 if __name__ == "__main__":
     # Capture and discard all unittest output
